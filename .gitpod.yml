@@ -1,5 +1,5 @@
 tasks:
-  - init: npm install
-    command: npm run dev
+  - init: composer global require laravel/installer
+    command: php artisan serve
 image:
   file: .gitpod.Dockerfile
